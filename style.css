@@ -1,0 +1,100 @@
+    
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+   background-image:url(./assets/bg.png) ;
+}
+
+
+/* <...navbar.....> */
+.navbar{
+    display: flex;
+    margin-top: 0px;
+    background-color: black;
+    padding: 10px ;
+ 
+    
+}
+.navbar>div{
+    
+}
+
+.line{
+
+    height: auto;
+    background-color: white;
+    width: 2px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.list{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 250px;
+    align-items: center;
+
+    
+  
+}
+.list-item{
+    margin-right: 100px;
+    color: white;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+    list-style: none;
+}
+.list-item:hover{
+    font-weight: bold;
+}
+  
+
+.button-small{
+    margin-top: 30px;
+    background-color: #b300ff;
+    border: none;
+    padding: 8px 15px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.button-small:hover{
+    font-weight: bold;
+}
+
+/* <....hero section.....> */
+.hero{
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+    color:white;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    line-height: 75px;}
+   
+    p{
+       font-size: 30px; 
+      padding-top: 15px;
+    }
+    
+
+.button-large{
+    margin-top: 30px;
+    padding: 20px 30px;
+    background-color: #b300ff;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 300;
+}
+.button-large:hover{
+    font-weight: bold;
+}
